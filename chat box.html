@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="chat box.css">
+    <title>chat box</title>
+  </head>
+
+  <body>
+        <div class='wrapper'>
+      <div class='header'>
+        <h1 class='h1'>Chat Bubbles</h1>
+        <button class='button reset__button' type='submit'>Reset</button>
+      </div>
+      <div class='overflow-fade'></div>
+      <div class='content-wrapper'>
+        <div class='content'></div>
+        <div class='isTyping'>
+          <span class='isTyping__dot'>•</span>
+          <span class='isTyping__dot'>•</span>
+          <span class='isTyping__dot'>•</span>
+        </div>
+      </div>
+      <div class='input-wrapper'>
+        <input id='input' class='input' placeholder='Type a message' />
+        <button class='button submit__button' type='submit'>✈️</button>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="chat box.js">
+    </script>
+
+    <!-- <script type="text/javascript">
+    $.getScript('chat box.js', function()
+    {
+      https://raw.githubusercontent.com/flouthoc/minBlock.js/master/minBlock.js
+      // script is now loaded and executed.
+      // put your dependent JS here.
+    });
+    new minBlock(canvasID: String);
+    </script> -->
+
+  </body>
+
+</html>

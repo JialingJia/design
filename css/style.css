@@ -1,0 +1,167 @@
+/* Table of Contents
+-------------------------------------------------------
+- General Content
+- Header & Navigation
+- Modal
+- Typography
+- Images & Media
+- Footer
+- Media Queries
+-------------------------------------------------------*/
+
+/* General Content */
+.main{
+  padding-top: 3%;
+}
+
+.category{
+  padding: 6% 0;
+  border-bottom: 1px solid #eee;
+}
+
+.showcase{
+  padding: 6% 0;
+  border-bottom: 1px solid #eee;
+}
+
+.row{
+  margin: 0;
+  padding-bottom: 3%;
+}
+
+footer{
+  padding:6% 0;
+}
+
+/* Header & Navigation */
+.header{
+  padding: 8% 0;
+  border-bottom: 1px solid #eee;
+}
+
+
+/* Modal */
+.modal {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-dialog {
+  border:none;
+}
+
+.modal-content {
+  border-style:none;
+}
+
+.modal-title {
+  font-weight: normal;
+}
+
+/* input {
+  right: 5%;
+  left: 5%;
+} */
+
+/* label {
+  align-items: flex-start;
+} */
+
+.close {
+  font-size: 26px;
+}
+
+/* .modal-content button {
+  margin-bottom: 5%;
+} */
+
+
+/* Typography */
+
+body{
+  font-family:'Roboto', sans-serif;
+  font-size: 1.5em;
+  color: #000;
+}
+
+span{
+  font-weight:bold;
+}
+
+h1{
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-align: left;
+  padding-bottom: 2%;
+}
+
+h6{
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.sub-title{
+  color:#707070;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding-bottom: 3%;
+}
+
+.oath p{
+  font-style: italic;
+}
+
+p.student {
+  font-weight:bold;
+}
+
+p.project_1{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 7; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.button-primary{
+  margin-right: 1%;
+}
+
+/* Images & Media */
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+div.student {
+    display:flex;
+    align-items:center;
+}
+
+span.name{
+  display:block;
+  padding-left: 2%;
+}
+
+.avatar{
+  display: block;
+  position: relative;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eee;
+}
+
+.wrapper{
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: 22rem;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+
+.wrapper .small{
+  height: 20rem;
+}
